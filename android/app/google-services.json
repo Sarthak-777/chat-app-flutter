@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663136679641",
+    "project_id": "chat-app-3311b",
+    "storage_bucket": "chat-app-3311b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663136679641:android:502d8d872d82278b9c30c8",
+        "android_client_info": {
+          "package_name": "com.Sarthak.mac_cumhaill_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663136679641-9kf3nj64vfj8in9gdktu8kufu5ql7lkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAjyYW8mjKUXbkO-HWOCE8yyZpkTK80ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663136679641-9kf3nj64vfj8in9gdktu8kufu5ql7lkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

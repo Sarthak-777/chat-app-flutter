@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:mac_cumhaill_flutter/welcome_screen.dart';
+import 'package:mac_cumhaill_flutter/login_screen.dart';
+import 'package:mac_cumhaill_flutter/registration_screen.dart';
+import 'package:mac_cumhaill_flutter/chat_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(FlashChat());
+}
+
+class FlashChat extends StatelessWidget {
+  final Future<FirebaseApp> _initialization = Firebase.initializeApp();
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      initialRoute: WelcomeScreen.id,
+      routes: {
+        WelcomeScreen.id: (context) => WelcomeScreen(),
+        LoginScreen.id: (context) => LoginScreen(),
+        RegistrationScreen.id: (context) => RegistrationScreen(),
+        ChatScreen.id: (context) => ChatScreen(),
+      },
+    );
+  }
+}
